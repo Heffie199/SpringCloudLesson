@@ -1,4 +1,4 @@
-package com.lynn.demo.config;
+package com.lynn.demo.config2;
 
 import com.atomikos.jdbc.AtomikosDataSourceBean;
 import com.lynn.demo.db.DBConfig2;
@@ -44,7 +44,7 @@ public class MyBatisConfig2 {
         return xaDataSource;
     }
 
-    @Bean(name = "dqlSessionFactory2")
+    @Bean(name = "sqlSessionFactory2")
     public SqlSessionFactory sqlSessionFactory(@Qualifier("dataSource2") DataSource dataSource)
             throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();

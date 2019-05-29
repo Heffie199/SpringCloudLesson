@@ -7,9 +7,9 @@ spring:
 mysql:
   datasource:
     test1:
-      url: jdbc:mysql://localhost:3306/test01?useUnicode=true&characterEncoding=utf-8
+      url: jdbc:mysql://localhost:3306/lin?useUnicode=true&characterEncoding=utf-8
       username: root
-      password: 1qaz2wsx
+      password: root
       minPoolSize: 3
       maxPoolSize: 25
       maxLifetime: 20000
@@ -19,9 +19,9 @@ mysql:
       maxIdleTime: 60
       testQuery: select 1
     test2:
-      url: jdbc:mysql://localhost:3306/test02?useUnicode=true&characterEncoding=utf-8
+      url: jdbc:mysql://localhost:3306/tcc?useUnicode=true&characterEncoding=utf-8
       username: root
-      password: 1qaz2wsx
+      password: root
       minPoolSize: 3
       maxPoolSize: 25
       maxLifetime: 20000
