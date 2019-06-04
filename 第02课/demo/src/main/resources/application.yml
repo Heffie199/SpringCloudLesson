@@ -15,5 +15,5 @@ spring:
 oss:
   appKey: 1
   appSecret: 1
-  bucket: lynn
+  bucket: flytech
   endPoint: https://www.aliyun.com

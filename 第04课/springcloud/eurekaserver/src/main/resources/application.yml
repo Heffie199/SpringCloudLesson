@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: 8800
 spring:
   application:
     name: eurekaserver
@@ -23,4 +23,5 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/
+#      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://127.0.0.1:8800/eureka/
